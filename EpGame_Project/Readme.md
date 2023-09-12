@@ -29,6 +29,11 @@ Projede kullanılan katmanlar şunlardır:
   - **Business Logic Layer Dosyası**: İş mantığını içeren sınıfları içerir.
   - **Data Access Layer Dosyası**: Veritabanı işlemlerini yöneten sınıfları içerir.
   - **Entity Dosyası**: Ortak özellikleri içeren entity sınıflarını içerir.
+  
+### Entity Layer (Entity Katmanı)
+
+Entity Layer, veritabanı tablolarını temsil eden entity sınıflarını içerir.
+
 
 ### Data Access Layer (Veri Erişim Katmanı)
 
