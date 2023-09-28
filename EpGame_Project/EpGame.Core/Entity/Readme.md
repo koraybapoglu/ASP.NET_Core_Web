@@ -11,7 +11,7 @@ BaseEntity, diğer varlık (entity) sınıflarının temelini oluşturan bir sı
 
     UpdatedTime: Varlığın son güncelleme zamanını temsil eden bir DateTime türündeki değerdir. Bu özellik, bir varlığın ne zaman güncellendiğini izlemek için kullanılır.
 
-Kullanım
+## Kullanım
 
 BaseEntity sınıfı, diğer varlık sınıflarının temel sınıfı olarak kullanılır. Örneğin, aşağıdaki gibi bir varlık sınıfı tanımlanabilir:
 
