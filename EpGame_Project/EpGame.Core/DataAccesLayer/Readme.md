@@ -10,6 +10,8 @@ IRepository, veritabanı işlemleri gerçekleştirmek için kullanılan bir arab
 
 IRepository'i kullanmak için `EpGame.Core.DataAccesLayer` namespace'ini ve `IRepository` arabirimini ekleyin. Ardından, bu arabirimi uygulayan veya miras alan sınıflar oluşturabilirsiniz.
 
+Bu açıklama, `EpGame.Core` katmanındaki `DataAccessLayer` içinde bulunan `IRepository` arabirimi hakkında temel bilgileri sunar. Projeye özgü ihtiyaçlarınıza göre bu açıklamaları düzenleyebilirsiniz.
+
 ```csharp
 using EpGame.Core.DataAccesLayer;
 
@@ -20,4 +22,4 @@ public class MyEntityRepository : IRepository<MyEntity>
 
 
 
-Bu açıklama, `EpGame.Core` katmanındaki `DataAccessLayer` içinde bulunan `IRepository` arabirimi hakkında temel bilgileri sunar. Projeye özgü ihtiyaçlarınıza göre bu açıklamaları düzenleyebilirsiniz.
+
