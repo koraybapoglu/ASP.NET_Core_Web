@@ -14,7 +14,6 @@ IGenericService, genel iş mantığı hizmetleri sağlamak için kullanılan bir
 
 # Kullanım Üst Katmanında (BusinessLogicLayer)
 
-Temel yapıları EpGame.Core katmanında tanımladık, şimdi bunları üst katman olan BusinessLogicLayer içinde nasıl kullanacağımızı görelim.
+Temel yapıları EpGame.Core katmanında tanımladık, şimdi bunları üst katman olan BusinessLogicLayer kullanacağız.
 
-
-Bu açıklama, `EpGame.Core` katmanında oluşturulan temellerin üst katman olan `BusinessLogicLayer` içinde nasıl kullanılacağına dair detaylı bilgi sunmaktadır. Projeye özgü ihtiyaçlarınıza göre bu açıklamaları düzenleyebilirsiniz.
+Bu açıklama, `EpGame.Core` katmanında oluşturulan temellerin daha üst katman olan `BusinessLogicLayer` içinde nasıl kullanılacağına dair detaylı bilgi sunmaktadır. Projeye özgü ihtiyaçlarınıza göre bu açıklamaları düzenleyebilirsiniz.
