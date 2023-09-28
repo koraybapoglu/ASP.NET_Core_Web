@@ -1,4 +1,4 @@
-BaseEntity (Temel Varlık Sınıfı)
+# BaseEntity (Temel Varlık Sınıfı)
 
 BaseEntity, diğer varlık (entity) sınıflarının temelini oluşturan bir sınıftır ve genellikle her varlık sınıfında ortak olan özellikleri (kolonları) içerir. Bu sınıf, genellikle veritabanı tablolarındaki ID, Active (Aktiflik Durumu), CreatedTime (Oluşturulma Zamanı), ve UpdatedTime (Güncelleme Zamanı) gibi temel özellikleri içerir.
 Özellikler (Properties)
