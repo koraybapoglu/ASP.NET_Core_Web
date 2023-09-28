@@ -10,9 +10,13 @@ IGenericService (Genel Hizmet Arabirimi)
 
 IGenericService, genel iş mantığı hizmetleri sağlamak için kullanılan bir arabirimdir. Genellikle temel veritabanı işlemlerini (ekleme, silme, güncelleme, sorgulama) gerçekleştirmek için kullanılır.
 
+IGenericService (Genel Hizmet Arabirimi)
+
+IGenericService, genel iş mantığı hizmetleri sağlamak için kullanılan bir arabirimdir. Genellikle temel veritabanı işlemlerini (ekleme, silme, güncelleme, sorgulama) gerçekleştirmek için kullanılır.
+
 # Kullanım Üst Katmanında (BusinessLogicLayer)
 
-### Temel yapıları EpGame.Core katmanında tanımladık, şimdi bunları üst katman olan BusinessLogicLayer içinde nasıl kullanacağımızı görelim.
+Temel yapıları EpGame.Core katmanında tanımladık, şimdi bunları üst katman olan BusinessLogicLayer içinde nasıl kullanacağımızı görelim.
 
 
 Bu açıklama, `EpGame.Core` katmanında oluşturulan temellerin üst katman olan `BusinessLogicLayer` içinde nasıl kullanılacağına dair detaylı bilgi sunmaktadır. Projeye özgü ihtiyaçlarınıza göre bu açıklamaları düzenleyebilirsiniz.
