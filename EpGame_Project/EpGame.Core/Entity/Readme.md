@@ -16,6 +16,7 @@ Kullanım
 BaseEntity sınıfı, diğer varlık sınıflarının temel sınıfı olarak kullanılır. Örneğin, aşağıdaki gibi bir varlık sınıfı tanımlanabilir:
 
 ```csharp
+using EpGame.Core.Entity;
 
 public class Product : BaseEntity
 {
