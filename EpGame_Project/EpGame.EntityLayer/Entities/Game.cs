@@ -12,6 +12,7 @@ namespace EpGame.EntityLayer.Entities
 		public string GameName { get; set; }
 		public double Price { get; set; }
 		public DateTime PublishDate { get; set; }
+		public string ProducerName { get; set; }
 		public string Description { get; set; }
 		public double Size { get; set; }
 		public double Rating { get; set; }
