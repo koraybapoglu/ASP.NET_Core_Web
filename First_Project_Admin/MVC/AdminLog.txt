@@ -1,0 +1,1 @@
+Log Türü : Error Hata Mesajı : The property 'Admins.ID' has a temporary value while attempting to change the entity's state to 'Deleted'. Either set a permanent value explicitly, or ensure that the database is configured to generate values for this property. Log Tarihi : 10.10.2023 21:41:49
