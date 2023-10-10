@@ -1,0 +1,1 @@
+Log Türü : Error Hata Mesajı : The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. Log Tarihi : 7.10.2023 20:33:03
