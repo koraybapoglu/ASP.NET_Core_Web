@@ -1,0 +1,17 @@
+/* Header Renk Tonlaması */
+header {
+    background-color: #007BFF; /* Mavi */
+    color: #fff; /* Beyaz metin */
+}
+
+/* Sidebar Renk Tonlaması */
+#sidebar {
+    background-color: #333; /* Koyu Gri */
+    color: #fff; /* Beyaz metin */
+}
+
+/* Footer Renk Tonlaması */
+footer {
+    background-color: #333; /* Koyu Gri */
+    color: #fff; /* Beyaz metin */
+}
