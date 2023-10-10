@@ -1,0 +1,35 @@
+﻿@model Admin.EntityLayer.POCO.Admins
+<div class="container mt-5">
+    <h2>Admin Getir</h2>
+    <p>Getirmek istediğiniz adminin e-postasını giriniz:</p>
+
+    <!-- Admin e-posta girme formu -->
+    <form method="post" asp-controller="AdminDashboard" asp-action="GetAdmin">
+        <div class="form-group">
+            <label for="email">E-Posta Adresi:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="E-Posta Adresi" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Admin'i Getir</button>
+    </form>
+
+    <!-- Getirilen admin bilgileri -->
+    <div class="mt-4">
+        @if (Model != null)
+        {
+            <h3>Admin Bilgileri</h3>
+            <p><strong>ID:</strong>@Model.ID</p>
+            <p><strong>Kullanıcı Adı:</strong>@Model.UserName</p>
+            <p><strong>Şifre:</strong>@Model.Password</p>
+            <p><strong>E-Posta:</strong> @Model.Email</p>
+
+        }
+        else
+        {
+            <h3>Admin Bilgileri</h3>
+            <p><strong>ID:</strong> 1</p>
+            <p><strong>Kullanıcı Adı:</strong> Admin1</p>
+            <p><strong>Şifre:</strong> Şifre1</p>
+            <p><strong>E-Posta:</strong> admin1@example.com</p>
+        }
+    </div>
+</div>
