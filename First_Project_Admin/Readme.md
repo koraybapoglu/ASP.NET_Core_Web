@@ -39,4 +39,4 @@ Bu uygulama, n katmanlı bir mimariye sahiptir ve kodları organize etmek için 
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE.md](LICENSE.md) dosyasına bakın.
+Bu proje Ücretsiz olarak kullanıma sunulmuştur.
