@@ -1,0 +1,25 @@
+﻿@model List<Admin.EntityLayer.POCO.Admins>
+<div class="container mt-5">
+    <h2>Admin Silme</h2>
+    <p>Silmek istediğiniz adminin ID'sini giriniz:</p>
+
+    <!-- Adminlerin ID ve kullanıcı adlarını gösteren liste -->
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>ID: @item.ID, Kullanıcı Adı:@item.UserName</li>
+        }
+        <!-- Daha fazla admin eklemek için benzer listeler ekleyebilirsiniz -->
+    </ul>
+
+    <!-- Admin ID girme formu -->
+    <form method="post" asp-controller="AdminDashboard" asp-action="DeleteAdmin">
+        <div class="form-group">
+            <label for="AdminId">Admin ID:</label>
+            <input type="number" class="form-control" id="AdminId" name="AdminId" placeholder="Admin ID" required>
+        </div>
+
+        <!-- Silme işlemi butonu -->
+        <button type="submit" class="btn btn-danger">Admin'i Sil</button>
+    </form>
+</div>
