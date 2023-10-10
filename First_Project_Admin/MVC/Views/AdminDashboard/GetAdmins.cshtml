@@ -1,0 +1,28 @@
+﻿@model List<Admin.EntityLayer.POCO.Admins>
+<div class="container mt-5">
+    <h2>Admin Listesi</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Kullanıcı Adı</th>
+                <th>Şifre</th>
+                <th>E-Posta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Örnek admin verileri, gerçek verilerle değiştirilmelidir -->
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.UserName</td>
+                    <td>@item.Password</td>
+                    <td>@item.Email</td>
+                </tr>
+            }
+            <!-- Daha fazla admin eklemek için benzer satırlar ekleyebilirsiniz -->
+        </tbody>
+    </table>
+</div>
+
