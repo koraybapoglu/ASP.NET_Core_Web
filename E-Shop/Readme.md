@@ -15,8 +15,12 @@ Projemizin N katmanlı mimarisi tamamlandı, UI katmanı oluşturuldu ve yöneti
 ## Kullanılan Diller ve Framework'ler
 
 Programlama Dili: C#
+
 Web Framework: ASP.NET Core (MVC, Razor Pages ve Web API)
+
 Veritabanı: Entity Framework Core
+
 Kullanıcı Arayüzü ve Stil: HTML5, CSS3 ve JavaScript
+
 Depolama: SQL Server
 
