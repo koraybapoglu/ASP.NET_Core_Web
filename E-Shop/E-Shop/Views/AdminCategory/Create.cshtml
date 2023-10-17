@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Entities.Category
+@{
+    ViewBag.Title = "Create";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-controller="AdminCategory" asp-action="Create">
+                <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" class="form-control" name="Name" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <input type="text" class="form-control" name="Description" required />
+                </div>
+                <br />
+                <button class="btn btn-primary" type="submit">Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>
