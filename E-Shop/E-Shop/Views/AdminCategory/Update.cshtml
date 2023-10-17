@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Entities.Category
+@{
+    ViewBag.Title = "Update";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-controller="AdminCategory" asp-action="Update">
+                <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" class="form-control" name="Name" value="@Model.Name" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <input type="text" class="form-control" name="Description" value="@Model.Description" required />
+                </div>
+                <br />
+                <button class="btn btn-primary" type="submit">Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>
