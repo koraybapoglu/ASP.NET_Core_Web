@@ -1,0 +1,66 @@
+﻿@model List<EntityLayer.Entities.Product>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<link href="~/css/css/bootstrap.min.css" rel="stylesheet" />
+<a href="Create" class="btn btn-primary">Ürün Ekle</a>
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>Ad</th>
+        <th>Açıklama</th>
+        <th>Fiyat</th>
+        <th>Stok</th>
+        <th>Popüler</th>
+        <th>Onay</th>
+        <th>Resim</th>
+        <th>Kategori</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+            <td>
+                @if (item.Popular == true)
+                {
+                    <label class="btn btn-success">Evet</label>
+                }
+                else
+                {
+                    <label class="btn btn-danger">Hayır</label>
+                }
+            </td>
+            <td>
+                @if (item.IsApproved == true)
+                {
+                    <label class="btn btn-success">Evet</label>
+                }
+                else
+                {
+                    <label class="btn btn-danger">Hayır</label>
+                }
+            </td>
+            <td><img src="/Images/@item.Image" width="200" height="150" alt="Resim"></td>
+            <td>
+                @if (item.Category != null)
+                {
+                    @item.Category.Name
+                }
+                else
+                {
+                    <span class="text-danger">Kategori Bulunamadı</span>
+                }
+            </td>
+            <td>@Html.ActionLink("Sil", "Delete", new { item.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Silmek istiyor musunuz?')" })</td>
+            <td><a class="btn btn-primary" href="/AdminProduct/Update/@item.ID">Güncelle</a></td>
+        </tr>
+    }
+</table>
