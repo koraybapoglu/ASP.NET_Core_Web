@@ -1,0 +1,61 @@
+﻿@model EntityLayer.Entities.Product
+@{
+    ViewBag.Title = "Update";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-controller="AdminProduct" asp-action="Update" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" class="form-control" name="Name" value="@Model.Name" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <input type="text" class="form-control" name="Description" value="@Model.Description" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <label>Önceki Resim</label>
+                    <img src="/Images/@Model.Image" width="70" height="70"/>
+                </div>
+                <br />
+                <div class="form-group">
+                    <label>Resim</label>
+                    <input type="file" class="form-control" name="file" />
+                    <div />
+                    <br />
+                    <div class="form-group">
+                        <label>Fiyat</label>
+                        <input type="text" class="form-control" name="Description" value="@Model.Price" required />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Stok</label>
+                        <input type="text" class="form-control" name="Description" value="@Model.Stock" required />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Popüler</label>
+                        @Html.EditorFor(x=>x.Popular)
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label>Onay</label>
+                        @Html.EditorFor(x=>x.IsApproved)
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label for="CategoryID">Kategori</label>
+                        @Html.DropDownListFor(x => x.CategoryID,(List<SelectListItem>)ViewBag.ktgr, new { @class = "form-control" })
+                    </div>
+                    <br />
+                    <button class="btn btn-primary" type="submit">Güncelle</button>
+                    <br />
+                    <br />
+                    <a href="/AdminProduct/Index" class="btn btn-primary">Ürün Listesi</a>
+            </form>
+        </div>
+    </div>
+</div>
