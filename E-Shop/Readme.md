@@ -8,9 +8,13 @@ Bu proje, bir e-ticaret sitesi geliştirmek için oluşturulan bir web uygulamas
 
 ## Yenilikler ve Güncellemeler
 
-Güncel Durum (Tarih: 17 Ekim 2023)
+(Tarih: 17 Ekim 2023)
 
 Projemizin N katmanlı mimarisi tamamlandı, UI katmanı oluşturuldu ve yönetici panelinin temel CRUD işlemleri başarıyla tamamlandı. Daha fazla gelişme ve iyileştirmeler yolda!
+
+Güncel Durum (Tarih: 22 Ekim 2023)
+
+Ürünler (Products) CRUD işlemleri başarıyla tamamlandı. Daha fazla gelişme ve iyileştirmeler yolda!
 
 ## Kullanılan Diller ve Framework'ler
 
