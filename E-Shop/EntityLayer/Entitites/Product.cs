@@ -12,6 +12,10 @@ namespace EntityLayer.Entities
     {
         public int ID { get; set; }
         [Required(ErrorMessage = "Boş Geçilemez")] //VALIDATION İSLEMLERİ
+        [Display(Name = "Ad")]
+        [StringLength(50, ErrorMessage = "Max 50 karakter olmalıdır.")]
+        public string Name { get; set; }
+        [Required(ErrorMessage = "Boş Geçilemez")] //VALIDATION İSLEMLERİ
         [Display(Name = "Açıklama")]
         [StringLength(50, ErrorMessage = "Max 50 karakter olmalıdır.")]
         public string Description { get; set; }
@@ -32,9 +36,6 @@ namespace EntityLayer.Entities
         public string Image { get; set; }
         [Required(ErrorMessage = "Boş Geçilemez")] //VALIDATION İSLEMLERİ
         [Display(Name = "Adet")]
-        public int Quantity { get; set; }
-        [Required(ErrorMessage = "Boş Geçilemez")] //VALIDATION İSLEMLERİ
-        [Display(Name = "Kategori")]
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
     }
