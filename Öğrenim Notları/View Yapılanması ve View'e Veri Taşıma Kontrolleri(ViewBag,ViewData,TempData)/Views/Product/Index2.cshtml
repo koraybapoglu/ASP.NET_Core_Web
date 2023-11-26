@@ -1,0 +1,12 @@
+﻿@model List<OrnekProje.Models.Product>
+
+@* <h3>@TempData["x"]</h3> *@
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Id</li>
+        <li>@item.ProductName</li>
+        <li>@item.Quantity</li>
+    } 
+</ul>
