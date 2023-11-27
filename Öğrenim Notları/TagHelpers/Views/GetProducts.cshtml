@@ -1,0 +1,29 @@
+﻿@* @model OrnekProje.Models.ViewModel.UserProduct;
+
+<h3>@Model.Product.ProductName</h3>
+<h3>@Model.User.Name</h3> *@
+
+@model (OrnekProje.Models.Product p,OrnekProje.Models.User u)
+@addTagHelper * ,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h3>@Model.p.ProductName</h3>
+<h3>@Model.u.Name</h3>
+
+@Html.Partial("~/Views/Product/Partials/ListPartial.cshtml")
+
+@* HtmlHelper ile yapılmış bir form menüsü *@
+@Html.BeginForm("Index","Product",FormMethod.Post)
+
+@* TagHelper ile yapılmış bir form menüsü *@
+
+@* <form asp-action="Index" asp-controller="Product" method="post">
+    @Html.TextBox("txtadi")
+    <input type="text" asp-for=""></input>
+    <select asp-for=""></select>
+</form> *@
+
+<cache>
+    Cache=@DateTime.Now
+</cache>
+<br />
+@DateTime.Now
