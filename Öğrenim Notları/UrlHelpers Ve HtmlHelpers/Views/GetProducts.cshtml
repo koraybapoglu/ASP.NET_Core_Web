@@ -1,0 +1,11 @@
+﻿@* @model OrnekProje.Models.ViewModel.UserProduct;
+
+<h3>@Model.Product.ProductName</h3>
+<h3>@Model.User.Name</h3> *@
+
+@model (OrnekProje.Models.Product p,OrnekProje.Models.User u)
+
+<h3>@Model.p.ProductName</h3>
+<h3>@Model.u.Name</h3>
+
+@Html.Partial("~/Views/Product/Partials/ListPartial.cshtml")
