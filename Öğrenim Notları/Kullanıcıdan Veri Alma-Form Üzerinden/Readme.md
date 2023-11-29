@@ -3,7 +3,6 @@
 Kullanıcıdan veri almak için çeşitli yöntemler vardır ve bunlar ASP.NET Core MVC içinde kullanılabilir. Formlar aracılığıyla veri almak için farklı parametre türleri ve yöntemler kullanılabilir:
 ## IFormCollection Kullanımı
 
-csharp
 
 [HttpPost]
 public IActionResult CreateProduct(IFormCollection datas)
@@ -18,7 +17,6 @@ public IActionResult CreateProduct(IFormCollection datas)
 
 ## String Parametreleri ile Veri Alma
 
-csharp
 
 [HttpPost]
 public IActionResult CreateProduct(string txtValue1, string txtValue2, string txtValue3)
@@ -28,8 +26,6 @@ public IActionResult CreateProduct(string txtValue1, string txtValue2, string tx
 }
 
 ## Nesne Parametresi ile Veri Alma
-
-csharp
 
 public class Product
 {
