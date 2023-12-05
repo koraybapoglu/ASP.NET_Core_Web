@@ -1,0 +1,17 @@
+﻿@model List<FooterData>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Buraya footer içeriği gelebilir -->
+                @foreach (var item in Model)
+                {
+                    <p>Footer Alanı</p>
+                    <p>@item.Name</p>
+                    <p>@item.Surname</p>
+                }
+                
+            </div>
+        </div>
+    </div>
+</footer>
