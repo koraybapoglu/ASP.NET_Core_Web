@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Özel stillendirmeleri buraya ekleyebilirsiniz */
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    @* @Html.Partial("~/Views/Home/Partials/_HeaderPartial.cshtml"); *@
+    <partial name="~/Views/Home/Partials/_HeaderPartial.cshtml">
+        <!-- Slider -->
+        <partial name="~/Views/Home/Partials/_SlaytPartial.cshtml" model="ViewBag.Data">
+            <!-- Ana İçerik Alanı -->
+            <section id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Buraya içerik gelebilir -->
+                            @RenderBody()
+                            <p>Ana içerik alanı</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            @* <partial name="~/Views/Home/Partials/_FooterPartial.cshtml"> *@
+
+            @await Component.InvokeAsync("HomeFooter")
+                <!-- Bootstrap JS ve jQuery -->
+                <partial name="~/Views/Home/Partials/_ScriptPartial.cshtml">
+</body>
+</html>
