@@ -9,3 +9,4 @@ ASP.NET Core'da middleware'ler, genellikle `Configure` metodunda tanımlanır ve
 Middleware'ler, uygulama akışındaki her adımı temsil eder ve bu adımlar, gelen isteklerin işlenmesini ve yanıtların oluşturulmasını sağlar.
 
 Bu README dosyası, ASP.NET Core'da middleware'lerin ne olduğunu ve uygulama içindeki işlevlerini açıklar. Middleware'lerin, istemci ile sunucu arasındaki HTTP isteklerinin nasıl işlendiğini ve yönetildiğini temsil ettiğini vurgular.
+
