@@ -18,4 +18,4 @@ Bu sıra, bir middleware zincirini simüle eder. Her bir middleware, işlem adı
 
 Bu basit örnek, middleware kavramını ve işlevini daha iyi anlamak için bir simülasyon sunmaktadır.
 
-<img src="https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Calismasina%20Ornek%20Console%20Projesi/img.png" alt="alt text" width="320" height="180">
+![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Calismasina%20Ornek%20Console%20Projesi/img.png)
