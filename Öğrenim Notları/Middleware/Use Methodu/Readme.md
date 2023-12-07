@@ -10,3 +10,5 @@
 
 
 ![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Use%20Methodu/Use.png)
+
+![Çıktı Ekranı2](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Use%20Methodu/Use2.png)
