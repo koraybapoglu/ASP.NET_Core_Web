@@ -20,4 +20,4 @@ Bu etki, genellikle isteğin sonucunu belirli koşullara göre döndürmek veya 
 
 Bu açıklama, `Run` metodunun Short Circuit etkisini ve nasıl kullanıldığını açıklıyor. Dikkatlice kullanılması gerektiğini ve `Run` metodundan sonra gelen middleware'lerin tetiklenip tetiklenmediğinin kontrol edilmesi gerektiğini vurguluyor.
 
-![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Calismasina%20Ornek%20Console%20Projesi/img.png)
+![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Run%20Methodu/Run.png)
