@@ -9,4 +9,4 @@
 `Use` metodu, devreye girdikten sonra sıradaki middleware'i çağırabilir ve işlevini tamamladıktan sonra devam edebilir. Yani, bir middleware işlevi tamamlandıktan sonra bir sonraki middleware'e geçiş yapabilir ve ardından o noktadan devam edebilir.
 
 
-![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Run%20Methodu/Use.png)
+![Çıktı Ekranı](https://github.com/koraybapoglu/ASP.NET_Core_Web/tree/main/%C3%96%C4%9Frenim%20Notlar%C4%B1/Middleware/Use%20Methodu/Use.png)
